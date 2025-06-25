@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Customer Ops BOT Demo</title>
-</head>
+    <title>My Website with Bot</title>
+    <script>
+        function embedBotWithURL() {
+            const currentUrl = encodeURIComponent(window.location.href);
+            const botEnvId = "225155ff-5383-ef24-a3d7-8ffc4c6b1059"; // Replace with your Copilot Studio Environment ID
+            const botSchemaName = "cr5e6_websiteQA"; // Replace with your Bot Schema Name
 
-<body>
-  <script>
-  {
-Language: siteLanguage,
-currentURL: window.location.href,
-OrderId: '12345'
-}
+            const iframe = document.getElementById('copilotStudioBot');
+            if (iframe) {
+                iframe.src = `https://copilotstudio.microsoft.com/environments/${botEnvId}/bots/${botSchemaName}/webchat?__version__=2&WebsiteURL=${currentUrl}`;
+            }
+        }
+
+        // Call this function when the page loads
+        window.onload = embedBotWithURL;
     </script>
-  <iframe src="https://copilotstudio.microsoft.com/environments/225155ff-5383-ef24-a3d7-8ffc4c6b1059/bots/cr5e6_websiteQA/webchat?__version__=2" frameborder="0" style="width: 50%; height: 200%;"></iframe>
-  <main>
-    <h1>Customer Ops BOT Demo</h1>
-  </main>
+</head>
+<body>
+    <h1>Welcome to our website!</h1>
+    <div style="width: 400px; height: 600px;">
+        <iframe
+            id="copilotStudioBot"
+            src="" frameborder="0"
+            style="width: 100%; height: 100%;"
+        ></iframe>
+    </div>
 </body>
-
 </html>
