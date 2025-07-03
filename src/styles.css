@@ -1,21 +1,32 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
+body {
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for easy centering */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+    background-color: #f0f0f0; /* Just for visual contrast */
+    font-family: Arial, sans-serif;
 }
 
-html, body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
+.bot-container {
+    /* Optional: Add some styling to your container if needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Ensures content inside is centered if it's inline or inline-block */
 }
 
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
-}
-
-main > h1 {
-  text-align: center;
-  font-size: 3.5em;
+.your-bot-element {
+    /* Style for your actual bot element */
+    width: 300px; /* Example width */
+    height: 200px; /* Example height */
+    background-color: #4CAF50; /* Example color */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 1.2em;
 }
