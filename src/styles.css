@@ -22,7 +22,7 @@ body {
     /* Style for your actual bot element */
     width: 300px; /* Example width */
     height: 200px; /* Example height */
-    background-color: #4CAF50; /* Example color */
+    background-color: #FF0000; /* Example color */
     color: white;
     display: flex;
     justify-content: center;
