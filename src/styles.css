@@ -1,13 +1,9 @@
 body {
     background-image: url('Shell_Background.png');
-    margin: 0;
-    padding: 0;
-    display: flex; /* Use flexbox for easy centering */
-    justify-content: center; /* Horizontally center content */
-    align-items: center; /* Vertically center content */
-    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
-    background-color: #f0f0f0; /* Just for visual contrast */
-    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 .bot-container {
