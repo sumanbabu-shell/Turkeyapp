@@ -7,12 +7,16 @@ body {
 }
 
 .bot-container {
-    /* Optional: Add some styling to your container if needed */
-    padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Ensures content inside is centered if it's inline or inline-block */
+    margin: 20px auto; /* Center the bot container */
+    max-width: 800px; /* Limit its width */
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+h1 {
+    text-align: center;
+    color: #333; /* Or a color that contrasts with your background */
+    padding-top: 20px;
 }
 
 .your-bot-element {
