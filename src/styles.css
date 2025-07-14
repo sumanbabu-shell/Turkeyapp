@@ -8,7 +8,7 @@ body {
 
 .bot-container {
     margin: 20px auto; /* Center the bot container */
-    max-width: 900px; /* Limit its width */
+    max-width: 1000px; /* Limit its width */
     padding: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 8px;
