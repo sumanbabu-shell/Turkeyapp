@@ -8,7 +8,7 @@ body {
 
 .bot-container {
     margin: 20px auto; /* Center the bot container */
-    max-width: 800px; /* Limit its width */
+    max-width: 900px; /* Limit its width */
     padding: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 8px;
@@ -20,7 +20,7 @@ h1 {
 }
 #copilotStudioBot {
     width: 100%; /* Makes the iframe take up 100% of its parent's width */
-    height: 600px; /* Sets a fixed height for the chat window */
+    height: 800px; /* Sets a fixed height for the chat window */
     min-height: 400px; /* Keep your existing minimum height */
     border: none; /* Remove iframe border if you want a cleaner look */
 }
