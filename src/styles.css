@@ -18,6 +18,12 @@ h1 {
     color: #333; /* Or a color that contrasts with your background */
     padding-top: 20px;
 }
+#copilotStudioBot {
+    width: 100%; /* Makes the iframe take up 100% of its parent's width */
+    height: 600px; /* Sets a fixed height for the chat window */
+    min-height: 400px; /* Keep your existing minimum height */
+    border: none; /* Remove iframe border if you want a cleaner look */
+}
 
 .your-bot-element {
     /* Style for your actual bot element */
